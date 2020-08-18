@@ -17,11 +17,11 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 UNAPPROVED_MSG = (
-    "`Mohon maaf, saya belum konfirmasi anda untuk chat sama saya.\n`"
+    "`Mohon maaf, saya belum konfirmasi anda untuk chat saya.\n`"
     "`Silahkan menunggu sampai saya menerima chat anda.\n`"
     "`Sementara itu, jangan spam chat.. jika spam, anda akan di blokir otomatis oleh bot.\n`"
     "`Mengerti?\n\n`"
-    "`® Daeng Server Bot`")
+    "`® Userbot`")
 # =================================================================
 
 
@@ -70,7 +70,7 @@ async def permitpm(event):
 
                 if COUNT_PM[event.chat_id] > 4:
                     await event.respond(
-                        "`Mohon jangan melakukan spam, bot akan otomatis blokir anda jika melakukan spam 😭.`\n"
+                        "`Mohon jangan melakukan spam, bot akan otomatis blokir anda jika melakukan spam!!.`\n"
                         "`Anda sekarang kami BLOKIR, dikarenakan melakukan spam berulang kali.. silahkan menunggu sampai Owner Buka BLOKIR untuk anda.. maaf`"
                     )
 
